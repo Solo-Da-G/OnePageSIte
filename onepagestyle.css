@@ -23,9 +23,9 @@ body {
 
 header {
     background: #195c92;
-    padding: 30px;
-    position: fixed;
-    top: 1px;
+    padding: 35px;
+    position:fixed;
+    top: 0px;
     z-index: 1;
     width: 100%;
 }
@@ -359,28 +359,25 @@ padding-top: 180px;
 }
 
 footer {
-    
-    padding: 40px;
-    background: white;
-}
-
-footer .footend {
     display: flex;
+    background: whitesmoke;
+    padding: 30px;
+    height: 100px;
     justify-content: space-between;
-
-
+    align-items: center;
 }
 
-footer #imagelogos {
+
+ #imagelogos img{
 
     cursor: pointer;
-    margin-right: 80px;
-
+    padding: 10px;
+    width: 40px;
 
 }
 
 
-footer .footend h4 {
+footer h4 {
     color: rgba(137, 134, 134, 0.853);
     font-size: 17px;
     margin-left: 50px;
